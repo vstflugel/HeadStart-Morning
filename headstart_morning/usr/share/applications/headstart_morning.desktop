@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=My App
+Exec=/usr/bin/headstart_morning
+Icon=/usr/icon/blue-chains.png
+Type=Application
+Categories=Utility;

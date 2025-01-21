@@ -1,0 +1,9 @@
+Package: headstart-morning 
+Version: 1.0.0
+Section: utils
+Priority: optional
+Architecture: amd64
+Maintainer: Vaibhav Singh Tomar <vst17march@gmail.com>
+Description: This is a daily morning routine and rituals reminders for headstart. It's mission is to create billionaire's routine accessible to everyone, maximising the one's productivity. 
+
+
