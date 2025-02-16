@@ -50,10 +50,11 @@ class UserInteraction:
         console.rule()
         console.input("\nPress Enter to exit...")
 
-    def display_content_set(self, content):
+    def display_content_set(self, content, title):
 
         console.clear()
-        console.rule("[bold blue]Motivational Rules")
+        #console.rule(f"[bold blue]Motivational Rules")
+        console.rule(f"[bold blue]{title}")
 
         # Iterating through the content (which is a dictionary)
         for key, value in content.items():
@@ -67,29 +68,27 @@ class UserInteraction:
     def display_insights(self):
         """Get insights and thoughts for the morning"""
 
-        rules = self.daily_thoughts.joining_rules()
-        self.display_content_set(rules)
+        methods = [
+            'joining_rules',
+            'no_quotes',
+            'focus_principles',
+            'mindfulness_practices',
+            'genius_assets',
+            'leadership_core_values',
+            'get_truths',
+            'get_values',
+            'get_2x3x_mindset',
+            'habit_building_phases',
+            'get_must_avoid',
+            #'performance_cycles',
+        ]
 
-        truths = self.daily_thoughts.get_truths()
-        self.display_content_set(truths)
+        for method_name in methods:
+            method = getattr(self.daily_thoughts, method_name)
+            docstring = method.__doc__.strip() if method.__doc__ else 'No description available'
+            content = method()
+            self.display_content_set(content, docstring)
 
-        values = self.daily_thoughts.get_values()
-        self.display_content_set(values)
-
-        insights = self.daily_thoughts.get_2x3x_mindset()
-        self.display_content_set(insights)
-
-        content = self.daily_thoughts.habit_building_phases()
-        self.display_content_set(content)
-
-        content = self.daily_thoughts.get_must_avoid()
-        self.display_content_set(content)
-
-        content = self.daily_thoughts.genius_assets()
-        self.display_content_set(content)
-
-        content = self.daily_thoughts.performance_cycles()
-        self.display_content_set(content)
 
 
         commands = self.daily_thoughts.get_day_planner_commands()

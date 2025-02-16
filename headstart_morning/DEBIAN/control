@@ -1,6 +1,6 @@
 Package: headstart-morning 
-Version: 1.0.0
-Section: utils
+Version: 2.0.0
+Section: Core Utils
 Priority: optional
 Architecture: amd64
 Maintainer: Vaibhav Singh Tomar <vst17march@gmail.com>

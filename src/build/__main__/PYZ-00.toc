@@ -1595,7 +1595,7 @@
   ('tty', '/usr/lib/python3.12/tty.py', 'PYMODULE'),
   ('typing', '/usr/lib/python3.12/typing.py', 'PYMODULE'),
   ('typing_extensions',
-   '/home/flugel/python/myenv/lib/python3.12/site-packages/setuptools/_vendor/typing_extensions.py',
+   '/home/flugel/python/myenv/lib/python3.12/site-packages/typing_extensions.py',
    'PYMODULE'),
   ('urllib', '/usr/lib/python3.12/urllib/__init__.py', 'PYMODULE'),
   ('urllib.error', '/usr/lib/python3.12/urllib/error.py', 'PYMODULE'),

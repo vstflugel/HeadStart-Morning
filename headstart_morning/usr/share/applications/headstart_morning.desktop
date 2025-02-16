@@ -1,6 +1,6 @@
 [Desktop Entry]
-Name= HeadStart Morning
-Exec=/usr/bin/headstart_morning
+Name= Focused Headstart
+Exec=/usr/bin/focused_start
 Icon=/usr/icon/blue-chains.png
 Type=Application
 Categories=Utility;

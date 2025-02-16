@@ -6,6 +6,9 @@ class DailyThoughtsAndGoals:
     """Class containing rules, thought, goals, insights, reminders"""
     @staticmethod
     def joining_rules():
+        """
+        Joining Rules        
+        """
         rules = {
                     "RULE #1": "An addiction to distraction is the end of your creative production. "
                                 "Empire-makers and history-creators take one hour for themselves before "
@@ -30,6 +33,9 @@ class DailyThoughtsAndGoals:
 
     @staticmethod
     def get_truths():
+        """
+        Truths        
+        """
         truths = {
             "Truth #1": "World-class willpower is not something you are born with. It is developed through practice.",
             "Truth #2": "Personal discipline is like a muscle. The more you stretch it, the stronger it grows.",
@@ -41,16 +47,24 @@ class DailyThoughtsAndGoals:
 
     @staticmethod
     def get_values():        # Define the 3 values of heroic habit-makers
+        """
+        Values        
+        """
         values = {
             "Value #1": "You must be consistent and persistent if you want to win.",
             "Value #2": "Follow through with what you started to show personal respect.",
-            "Value #3": "You will perform in public how you perform in private."
+            "Value #3": "You will perform in public how you perform in private.",
+            "Value #4": "Focus on listening more than you speak today.",
+            "Value #5": "Ground yourself in your values throughout the day.",
         }
         return values
 
 
     @staticmethod
     def get_must_avoid():        # Define the 3 values of heroic habit-makers
+        """
+        Must Avoid        
+        """
         # Define the 1 general theory of self-discipline Spartans
         must_avoid = {
                 "Mistake #1" : "Leave Porn, Don't even think about any dirty stuffs, and no Mastrubation",
@@ -62,19 +76,24 @@ class DailyThoughtsAndGoals:
 
     @staticmethod
     def get_day_planner_commands():        # define the 3 values of heroic habit-makers
+        """
+        Day Planner
+        """
         # define the 1 general theory of self-discipline spartans
         theory = [
-                 "did the set your phone on dnd ?",
-                 "did you created the top 3 task for today ?",
-                 "don't forget to meet 3 new people today.",
-                 "are you ready for 60/10 rule ?",
+                "Did the set your phone on dnd ?",
+                "Did you created the top 3 task for today ?",
+                "Did you created the won't do list for today ?",
+                "Focus on listening more than you speak today.",
+                #"Don't forget to meet 3 new people today.",
+                # "Are you ready for 60/10 rule ?",
                 ]
         return theory
 
     @staticmethod
     def get_2x3x_mindset():
         """
-        Define the 2x3x mindset values.
+        The 2x3x mindset values.
         """
         values = {
             "Warrior's Mindset" : "Warriors do things that are hard but also important. So they do it regularly.",
@@ -88,7 +107,7 @@ class DailyThoughtsAndGoals:
     @staticmethod
     def habit_building_phases():
         """
-        Define the phases of building a new habit.
+        Phases of building a new habit.
         """
         phases = {
             "Destruction Phase": "22 days - Destruction of old habits.",
@@ -101,7 +120,7 @@ class DailyThoughtsAndGoals:
     @staticmethod
     def genius_assets():
         """
-        Define 'The 5 Assets of Genius.'
+       'The 5 Assets of Genius.'
         """
         assets = {
             "Asset #1": "Mental focus",
@@ -122,3 +141,80 @@ class DailyThoughtsAndGoals:
             "Deep Refueling Cycle (DRC)": "The period of relaxation and fun."
         }
         return cycles
+
+    @staticmethod
+    def productivity_rules():
+        """
+       The two cycles of elite performance.
+        """
+        cycles = {
+            "Refueling Cycle":"Take regular breaks and naps during the day to maintain focus.",
+            "Deep Refueling Cycle (DRC)": "The period of relaxation and fun."
+        }
+        return cycles
+
+
+    @staticmethod
+    def leadership_core_values():
+        """
+        My Core Values of leadership 
+        """
+        core_values = {
+            "Integrity & Accountability": "High standards, honesty, and reliability. Belief: Do the right thing, always.",
+            "Excellence & Mastery": "Results-driven, goal-focused, no tolerance for mediocrity. Belief: Progress and precision are non-negotiable.",
+            "Efficiency & Time Optimization": "Value productivity and eliminating waste. Belief: Time is precious; respect it.",
+            "Growth & Innovation": "Embrace progress, creativity, and challenging the status quo. Belief: Standing still = falling behind.",
+            "Autonomy & Self-Sufficiency": "Empower others, avoid micromanagement. Belief: Leaders create leaders."
+        }
+        return core_values
+
+
+
+    @staticmethod
+    def no_quotes():
+        """
+        Power of saying 'No'.
+        """
+        quotes = {
+            "Say No to Almost Everything": "The difference between successful people and really successful people is that really successful people say no to almost everything. – Warren Buffett",
+            "What You Don't Do Matters": "What you don't do determines what you can do. – Tim Ferriss",
+            "Assertive Repetition": "If the person continues to ask you, even after you've said no, you can simply repeat your last statement in a calm voice. You would repeat the same language every time they ask. Stay firm while being polite and professional.",
+            "'No' is a Complete Sentence": "'No' is a complete sentence. You do not owe anyone a detailed explanation of why you say no.",
+            "Focus and innovation is Saying No": "Focus is about saying no. Innovation is saying no to 1,000 things. – Steve Jobs",
+            "Say No to Distractions": "You can’t let praise or criticism get to you. It’s a weakness to get caught up in either one. – John Wooden (on saying no to distractions)",
+            "No Protects Your Energy": "'No' is a powerful word. It protects your time, energy, and focus—the foundations of leadership."
+        }
+        return quotes
+
+
+    @staticmethod
+    def focus_principles():
+        """
+        Focus Principles
+        """
+        principles = {
+            "Deep Work is a Superpower": "Deep work is a habit, not a talent. Prioritize depth over shallow busyness to unlock creativity and productivity.",
+            "Deep Refueling Cycle": "Take regular breaks and naps during the day to maintain focus.",
+            "Clarity Drives Results": "Your scattered focus results in a scattered life. Clarity breeds success—know your priorities.",
+            "Tackle the Hardest First (Eat the Frog)": "Eat the ugliest frog first: Tackle your most challenging/important task (MIT) first every morning.",
+            "Single-Tasking Mastery": "Practice single-tasking: Dedicate 25-minute blocks (Pomodoro Technique) to one task. Turn off notifications, close tabs, and resist multitasking.",
+            "80/20 Focus": "Apply the 80/20 Rule: Focus 80% of your effort on the 20% of tasks that deliver 80% of results.",
+            "Creative Procrastination": "Delay or ignore non-essential tasks guilt-free. Focus only on what truly matters.",
+
+        }
+        return principles
+
+
+    @staticmethod
+    def mindfulness_practices():
+        """
+        Mindfulness Practices to cultivate Presence and Enhance Clarity.
+        """
+        practices = {
+            "Breath Awareness Anchor": "Use your breath as an anchor. When distracted, pause, take 3 deep breaths, and refocus. Example: Before starting a task, close your eyes for 30 seconds and focus on your inhale/exhale.",
+            "Mindful Listening": "Practice mindful communication: Listen actively. When someone speaks, focus 100% on their words, tone, and body language—not your response.",
+            "Label Emotions": "Reduce emotional reactivity: When stressed, pause and name the emotion (e.g., 'I’m feeling anxious because…'). Naming creates distance and restores clarity.",
+            "Embrace Boredom & Deep Work": "Schedule boredom periods and deep work blocks. Train your mind to resist the urge for constant stimulation during these moments.",
+        }
+        return practices
+
